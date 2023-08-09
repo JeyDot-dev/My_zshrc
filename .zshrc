@@ -101,5 +101,5 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias Desktop="cd /mnt/c/Users/micro/Desktop"
 alias GitMakefile="sh ~/scripts/git_makefile.sh"
-alias Gitvimrc="sh ~/scripts/git_vimrc.sh"
-alias Gitzshrc="sh ~/scripts/git_zshrc.sh"
+alias GitVimrc="sh ~/scripts/git_vimrc.sh"
+alias GitZshrc="sh ~/scripts/git_zshrc.sh"
