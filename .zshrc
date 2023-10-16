@@ -8,7 +8,7 @@ export ZSH="$HOME/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="dst"
+ZSH_THEME="jonathan"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -99,7 +99,9 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias Desktop="cd /mnt/c/Users/micro/Desktop"
-alias GitMakefile="sh ~/scripts/git_makefile.sh"
-alias GitVimrc="sh ~/scripts/git_vimrc.sh"
-alias GitZshrc="sh ~/scripts/git_zshrc.sh"
+alias desktop="cd /mnt/c/Users/micro/Desktop"
+alias gitmakefile="sh ~/scripts/git_makefile.sh"
+alias gitvimrc="sh ~/scripts/git_vimrc.sh"
+alias gitzshrc="sh ~/scripts/git_zshrc.sh"
+alias errno="echo \$?"
+alias 42="cd ~/projets/42"
