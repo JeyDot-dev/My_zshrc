@@ -99,9 +99,13 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias get_makefile="curl https://raw.githubusercontent.com/JeyDot-dev/my_base_Makefile/main/Makefile > Makefile"
 alias desktop="cd /mnt/c/Users/micro/Desktop"
 alias gitmakefile="sh ~/scripts/git_makefile.sh"
 alias gitvimrc="sh ~/scripts/git_vimrc.sh"
 alias gitzshrc="sh ~/scripts/git_zshrc.sh"
 alias errno="echo \$?"
+alias vim="nvim"
+alias CPP="cd ~/projets/42/CPP"
 alias 42="cd ~/projets/42"
+alias bear="bear -- "
