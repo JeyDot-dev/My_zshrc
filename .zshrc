@@ -3,6 +3,7 @@
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
+export PATH="$HOME/.local/bin:$PATH"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -99,6 +100,7 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+eval "$(zoxide init --cmd cd zsh)"
 alias get_makefile="curl https://raw.githubusercontent.com/JeyDot-dev/my_base_Makefile/main/Makefile > Makefile"
 alias desktop="cd /mnt/c/Users/micro/Desktop"
 alias gitmakefile="sh ~/scripts/git_makefile.sh"
@@ -108,4 +110,5 @@ alias errno="echo \$?"
 alias vim="nvim"
 alias CPP="cd ~/projets/42/CPP"
 alias 42="cd ~/projets/42"
-alias bear="bear -- "
+alias make="compiledb make"
+alias nmake="compiledb -n make"
