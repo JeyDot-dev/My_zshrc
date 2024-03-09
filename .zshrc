@@ -2,14 +2,20 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
+fpath+=($HOME/.zsh/pure)
 export ZSH="$HOME/.oh-my-zsh"
 export PATH="$HOME/.local/bin:$PATH"
+autoload -U promptinit; promptinit
+PURE_CMD_MAX_EXEC_TIME=5
+#zstyle ':prompt:pure:prompt:*' color cyan
+zstyle :prompt:pure:git:stash show yes
+prompt pure
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="jonathan"
+#ZSH_THEME="jonathan"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -110,5 +116,6 @@ alias errno="echo \$?"
 alias vim="nvim"
 alias CPP="cd ~/projets/42/CPP"
 alias 42="cd ~/projets/42"
-alias make="compiledb make"
+#alias make="compiledb make"
 alias nmake="compiledb -n make"
+alias par="curl parrot.live"
